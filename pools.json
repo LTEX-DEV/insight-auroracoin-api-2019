@@ -1,62 +1,37 @@
-[{
-		"poolName": "AntMiner",
-		"url": "https://bitmaintech.com/",
+[
+	{
+		"poolName": "MinersPoolEU",
+		"url": "https://www.miners-pool.eu/",
 		"searchStrings": [
-			"AntPool"
+			"minersPoolEU"
 		]
 	},
 	{
-		"poolName": "Discus Fish",
-		"url": "http://f2pool.com/",
+		"poolName": "DigiHash",
+		"url": "http://digihash.co",
 		"searchStrings": [
-			"🐟",
-			"七彩神仙鱼",
-			"Made in China",
-			"Mined by user",
-			"Mined by gumi",
-		  	"Mined by "
+			"DigiHash"
 		]
 	},
 	{
-		"poolName": "Batpool",
-		"url": "https://batpool.com",
+		"poolName": "ZPOOL",
+		"url": "https://www.zpool.ca",
 		"searchStrings": [
-			"BATPOOL"
+			"www.zpool.ca"
 		]
 	},
 	{
-		"poolName": "BW",
-		"url": "https://www.bw.com",
+		"poolName": "The Blocks Factory",
+		"url": "https://dgb-sha.theblocksfactory.com",
 		"searchStrings": [
-			"/BW/"
+			"theblocksfactory.com"
 		]
 	},
 	{
-		"poolName": "LTC.TOP",
-		"url": "http://",
+		"poolName": "Omarg's Pools",
+		"url": "http://www.omargpools.ca/",
 		"searchStrings": [
-			"LTC.TOP"
-		]
-	},
-	{
-	  	"poolName": "LitecoinPool",
-	  	"url": "https://litecoinpool.org",
-	  	"searchStrings": [
-		  	"/LP/"
-		]
-	},
-	{
-	  	"poolName": "ViaLTC",
-	  	"url": "https://www.vialtc.com/",
-	  	"searchStrings": [
-		  	"/ViaLTC/"
-		]
-	},
-	{
-		"poolName": "TBDice",
-		"url": "http://ltc.tbdice.org/",
-		"searchStrings": [
-			"TBDice"
+			"Omarg's Pools"
 		]
 	}
 ]

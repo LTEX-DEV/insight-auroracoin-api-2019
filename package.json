@@ -1,8 +1,8 @@
 {
-  "name": "insight-lite-api",
-  "description": "A Litecoin blockchain REST and web socket API service for Litecore Node.",
+  "name": "insight-digibyte-api",
+  "description": "A DigiByte blockchain REST and web socket API service for digibyte Node.",
   "version": "0.4.4",
-  "repository": "git://github.com/litecoin-project/insight-lite-api.git",
+  "repository": "git://github.com/digibyte/insight-digibyute-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/litecoin-project/insight-lite-api/issues"
+    "url": "https://github.com/digibyte/insight-digibyte-api/issues"
   },
-  "homepage": "https://github.com/litecoin-project/insight-lite-api",
+  "homepage": "https://github.com/digibyte/insight-digibyte-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "litecoin api",
+    "digibyte api",
     "blockchain api",
     "json",
-    "litecore"
+    "digibyte"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "litecore-lib": "^0.13.22",
-    "litecore-message": "^1.0.5",
+    "digibyte": "^0.14.0",
+    "bitcore-message": "git://github.com/digicontributer/bitcore-message.git#9d9c8ad30158db25f683e2dee746a14a9d7ec8a0",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
