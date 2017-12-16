@@ -1,8 +1,8 @@
 # Insight API
 
-A DigiByte blockchain REST and web socket API service for [digibyte Node](https://github.com/digibyte-project/digibyte-node).
+A DigiByte blockchain REST and web socket API service for [digibyte Node](https://github.com/digibyte/digibyte-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/digibyte-project/insight-lite-ui.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/digibyte/insight-digibyte-ui.
 
 ## Getting Started
 
@@ -18,9 +18,9 @@ The API endpoints will be available by default at: `http://localhost:3001/insigh
 
 ## Prerequisites
 
-- [digibyte Node 3.x](https://github.com/digibyte-project/digibyte-node)
+- [digibyte Node 3.x](https://github.com/digibyte/digibyte-node)
 
-**Note:** You can use an existing DigiByte data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `bitcoin.conf`, as well as a few other additional fields.
+**Note:** You can use an existing DigiByte data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `digibyte.conf`, as well as a few other additional fields.
 
 ## Notes on Upgrading from v0.3
 
@@ -109,7 +109,7 @@ To protect the server, insight-api has a built it query rate limiter. It can be 
     }
   }
 ```
-With all the configuration options available: https://github.com/bitpay/insight-api/blob/master/lib/ratelimiter.js#L10-17
+With all the configuration options available: https://github.com/digibyte/insight-digibyte-api/blob/master/lib/ratelimiter.js#L10-17
 
 Or disabled entirely with:
 ``` json
