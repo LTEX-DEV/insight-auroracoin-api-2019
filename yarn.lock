@@ -398,7 +398,7 @@ digibyte@^0.13.19:
     lodash "=3.10.1"
     scryptsy "=2.0.0"
 
-bitcore-message@^1.0.4:
+digibyte-message@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/bitcore-message/-/bitcore-message-1.0.4.tgz#8998a0dd844ddd7a6e8a50ce31822ac6b6af6a1a"
   dependencies:
