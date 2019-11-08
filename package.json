@@ -1,8 +1,8 @@
 {
-  "name": "insight-digibyte-api",
-  "description": "A DigiByte blockchain REST and web socket API service for digibyte Node.",
+  "name": "insight-auroracoin-api",
+  "description": "A Auroracoin blockchain REST and web socket API service for auroracoin Node.",
   "version": "0.4.7",
-  "repository": "git://github.com/digibyte/insight-digibyte-api.git",
+  "repository": "git://github.com/LTEX-DEV/insight-auroracoin-api-2019.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/digibyte/insight-digibyte-api/issues"
+    "url": "https://github.com/LTEX-DEV/insight-auroracoin-api-2019/issues"
   },
-  "homepage": "https://github.com/digibyte/insight-digibyte-api",
+  "homepage": "https://github.com/LTEX-DEV/insight-auroracoin-api-2019",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "digibyte api",
+    "auroracoin api",
     "blockchain api",
     "json",
-    "digibyte"
+    "auroracoin"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "digibyte": "^0.14.0",
-    "digibyte-message": "git://github.com/digicontributer/bitcore-message.git#9d9c8ad30158db25f683e2dee746a14a9d7ec8a0",
+    "auroracoin": "git://github.com/LTEX-DEV/bitcore-lib-2019.git",
+    "auroracoin-message": "git://github.com/LTEX-DEV/bitcore-message-2019.git#9d9c8ad30158db25f683e2dee746a14a9d7ec8a0",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",

@@ -1,26 +1,26 @@
 # Insight API
 
-A DigiByte blockchain REST and web socket API service for [digibyte Node](https://github.com/digibyte/digibyte-node).
+A Auroracoin blockchain REST and web socket API service for [auroracoin Node](https://github.com/auroracoin/auroracoin-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/digibyte/insight-digibyte-ui.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/auroracoin/insight-auroracoin-ui.
 
 ## Getting Started
 
 ```bashl
-npm install -g digibyte-node@latest
-digibyte-node create mynode
+npm install -g auroracoin-node@latest
+auroracoin-node create mynode
 cd mynode
-digibyte-node install insight-digibyte-api
-digibyte-node start
+auroracoin-node install insight-auroracoin-api
+auroracoin-node start
 ```
 
 The API endpoints will be available by default at: `http://localhost:3001/insight-api/`
 
 ## Prerequisites
 
-- [digibyte Node 3.x](https://github.com/digibyte/digibyte-node)
+- [auroracoin Node 3.x](https://github.com/auroracoin/auroracoin-node)
 
-**Note:** You can use an existing DigiByte data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `digibyte.conf`, as well as a few other additional fields.
+**Note:** You can use an existing Auroracoin data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `auroracoin.conf`, as well as a few other additional fields.
 
 ## Notes on Upgrading from v0.3
 
@@ -69,8 +69,8 @@ There are a few changes to the `GET` endpoint for `/addr/[:address]`:
 
 Some additional general notes:
 - The transaction history for an address will be sorted in block order
-- The response for the `/sync` endpoint does not include `startTs` and `endTs` as the sync is no longer relevant as indexes are built in digibyted.
-- The endpoint for `/peer` is no longer relevant connection to digibyted is via ZMQ.
+- The response for the `/sync` endpoint does not include `startTs` and `endTs` as the sync is no longer relevant as indexes are built in auroracoind.
+- The endpoint for `/peer` is no longer relevant connection to auroracoind is via ZMQ.
 - `/tx` endpoint results will now include block height, and spentTx related fields will be set to `null` if unspent.
 - `/block` endpoint results does not include `confirmations` and will include `poolInfo`.
 
@@ -89,7 +89,7 @@ The `/tx/<txid>` endpoint JSON response will not include the following fields on
 object.
 - `spentTs`
 
-The `/status?q=getTxOutSetInfo` method has also been removed due to the query being very slow and locking digibyted.
+The `/status?q=getTxOutSetInfo` method has also been removed due to the query being very slow and locking auroracoind.
 
 Plug-in support for Insight API is also no longer available, as well as the endpoints:
 - `/email/retrieve`
@@ -109,7 +109,7 @@ To protect the server, insight-api has a built it query rate limiter. It can be 
     }
   }
 ```
-With all the configuration options available: https://github.com/digibyte/insight-digibyte-api/blob/master/lib/ratelimiter.js#L10-17
+With all the configuration options available: https://github.com/auroracoin/insight-auroracoin-api/blob/master/lib/ratelimiter.js#L10-17
 
 Or disabled entirely with:
 ``` json
