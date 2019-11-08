@@ -62,7 +62,7 @@
   "dependencies": {
     "async": "*",
     "auroracoin": "git://github.com/LTEX-DEV/bitcore-lib-2019.git",
-    "auroracoin-message": "git://github.com/LTEX-DEV/bitcore-message-2019.git#9d9c8ad30158db25f683e2dee746a14a9d7ec8a0",
+    "auroracoin-message": "git://github.com/LTEX-DEV/bitcore-message-2019.git",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
